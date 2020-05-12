@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+* {padding: 0%; margin: 0%;box-sizing: border-box;font-family: 'Work Sans', sans-serif; color: black;}
+
+.Wrap {width: 100%; height: 100vh;background-image: linear-gradient(to bottom right,#e43f5a,#1f4068);display: block; font-size: 30px; font-weight: bold;padding: 10px 10px;}
+input{width: 15S0px; height: 30px;}
+.Wrap h1{font-size: 35px;color:rgba(255, 255, 255, 1) ; text-shadow: -3px 3px 6px rgba(255, 255, 255, 0.4); animation: blink 2s ease-in infinite;display: flex; justify-content: center;align-items: center;}
+.Wrap p{font-size: 25px; color: rgba(255, 255, 255, 0.9);display: flex;justify-content: center;align-items: center;}
+
+@keyframes blink {
+    0%,100%{opacity: 0;}
+    50%{opacity: 1;}
+}
